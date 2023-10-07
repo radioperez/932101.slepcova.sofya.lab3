@@ -1,0 +1,89 @@
+html,body {
+	font-family: Arial, Helvetica, sans-serif;
+	margin: 0px;
+	padding: 0px;
+}
+main {
+	position: relative;	
+	padding-bottom: 5%;
+}
+
+header {
+	text-align: center;
+	color: white;
+	background-color: green;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.sidenav {
+	position: absolute;
+	float: left;
+	color: white;
+	background-color: red;
+	height: 100%;
+	margin: auto;
+	width: 15%;
+	margin-left: 25%;
+	padding-top: 5%;
+	margin-top: -16px;
+}
+.sidenav a {
+	margin-left: 20%;
+	margin-right: 20%;
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+.sidenav a:hover {
+	background-color: green;
+}
+
+section {
+	margin-left: 20%;
+}
+
+#loremipsum {
+	margin: auto;
+	width: 40%;
+	height: 100%;
+}
+
+p::first-letter {
+	font-size: 200%;
+	color: red;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: green;
+}
+
+::selection {
+  color: white;
+  background: green;
+}
+
+footer {
+	position: relative;
+	z-index: 2;
+	clear: both;
+	text-align: center;
+	color: white;
+	background-color: black;
+	height: 10%;
+	margin-top: 3%;
+}
+
+@media screen and (max-width: 800px) {
+  .sidenav {
+    margin-left: 0%;
+	width: 30%;
+  }
+  section {
+	margin-left: 10%;
+  }
+  footer {
+	margin-top: 1%;
+  }
+}
